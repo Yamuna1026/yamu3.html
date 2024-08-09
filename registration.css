@@ -1,0 +1,58 @@
+body{
+    font-family:Georgia,'Times New Roman', Times,serif;
+    background-color: rgb(246, 255, 220);
+}
+h2{
+    text-align:center;
+    }
+    
+    form{
+        
+        height:550px;
+        padding:15px;
+        margin-left: 500px;
+        margin-right: 500px;
+        border-radius: 5px;
+        background-color: darkcyan;
+   }
+   label{
+        display:block;
+        margin:5px;
+        font-weight:bold;
+    }
+    select{
+        width: 71%;
+        padding:4px;
+        border:2px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    input[type="submit"]{
+        color:blue;
+        background-color: rgb(238, 255, 0);
+        cursor:grab;
+        margin-top:7px;
+        margin-left:10px;
+        }
+        input[type="submit"]:hover{
+            background-color: rgba(7, 7, 232, 0.853);
+        }
+        .main{
+            width: 400px;
+            margin:auto;
+            heigth:auto;
+        }
+        input[type="text"]{
+            width:70%;
+        }
+        input[type="password"]{
+            width:70%;
+        }
+        input[type="number"]{
+            width:70%;
+        }
+        textarea{
+            width:72%;
+            height:100px;
+        }
+    
